@@ -1,6 +1,8 @@
 # temporal-coherence
-Architectural primitives for reasoning about time under intermittency, drift, and delayed observation.
 
-This repository collects notes, figures, and reference material around a recurring systems failure mode: when time becomes non-queryable under long-horizon, intermittent operation.
+This repository collects short technical notes and figures on a recurring systems failure mode in long-horizon, intermittently connected sensing deployments: time becomes non-queryable when event time is collapsed into arrival time.
 
-The goal is not to propose a new synchronisation protocol, but to articulate the minimal architectural properties required for temporal coherence to survive drift, buffering, and delayed observation.
+## Documents
+- **Arctic memo**: `docs/arctic-memo/Temporal_Failure_Modes_in_Arctic_Sensing_Systems.pdf`
+- **Technical paper**: `docs/paper/The Paper — 30012026.pdf`
+
